@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/RazrFalcon/resvg/archive/v{{ version }}.tar.gz
+  url: https://github.com/linebender/resvg/archive/v{{ version }}.tar.gz
   sha256: 3077d547f755d3ca4ab9144a8fb9ec6d366415157bf8d26727f0b5dcdd22742f
 
 build:
@@ -29,7 +29,7 @@ test:
     - resvg --version
 
 about:
-  home: https://github.com/RazrFalcon/resvg
+  home: https://github.com/linebender/resvg
   license: Apache-2.0 OR MIT
   license_file:
     - LICENSE-MIT
